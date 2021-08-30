@@ -13,13 +13,17 @@
             "hash": "4a906b211af88de6112e0cd636e867a2699202e36731140d9520b91b6649b319"
         }
     },
-    "checkver": {
-        "github": "https://github.com/sakura-editor/sakura"
-    },
     "bin": "sakura.exe",
     "shortcuts": [
         [
-            "sakura.exe"
+            "sakura.exe",
+            "Sakura Editor"
         ]
-    ]
+    ],
+	"persist": [
+		"sakura.init"
+	],
+    "checkver": {
+        "github": "https://github.com/sakura-editor/sakura"
+    }
 }
