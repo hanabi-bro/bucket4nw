@@ -19,8 +19,7 @@
     "bin": "sakura.exe",
     "shortcuts": [
         [
-            "sakura.exe",
-            "sakura"
+            "sakura.exe"
         ]
     ]
 }
