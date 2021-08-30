@@ -1,0 +1,27 @@
+{
+    "version": "v2.4.1",
+    "description": "Japanese text editor for MS Windows",
+    "homepage": "https://sakura-editor.github.io/",
+    "license": "zlib License",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/sakura-editor/sakura/releases/download/v2.4.1/sakura-tag-v2.4.1-build2849-ee8234f-Win32-Release-Exe.zip",
+            "hash": ""
+        },
+        "64bit": {
+            "url": "https://github.com/sakura-editor/sakura/releases/download/v2.4.1/sakura-tag-v2.4.1-build2849-ee8234f-Win32-Release-Exe.zip",
+            "hash": ""
+        }
+    },
+    "extract_dir": "sakura",
+    "checkver": {
+        "github": "https://github.com/sakura-editor/sakura"
+    },
+    "bin": "sakura.exe",
+    "shortcuts": [
+        [
+            "sakura.exe",
+            "sakura"
+        ]
+    ]
+}
