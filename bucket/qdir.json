@@ -15,7 +15,8 @@
     ],
 	"persist": [
 		"Q-Dir.ini",
-        "Favoriten"
+        "Favoriten",
+        "Favoriten.original"
 	],
     "checkver": {
         "url": "https://www.softwareok.com/?Download=Q-Dir",
