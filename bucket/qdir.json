@@ -1,10 +1,10 @@
 {
-    "version": "9.84",
+    "version": "9.91",
     "description": "The Quad-Directory-Explorer",
     "homepage": "https://www.softwareok.com/?Download=Q-Dir",
     "license": "zlib License",
     "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
-    "hash": "6188e6a3f30acb114b23c387a5627e74d141a9ea7cc618b754c9f6243d2393b9",
+    "hash": "",
     "extract_dir": "Q-Dir",
     "bin": "Q-Dir_x64.exe",
     "shortcuts": [
