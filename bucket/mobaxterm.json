@@ -29,8 +29,8 @@
     "persist": [
         "MobaXterm.ini",
         "MobaXterm backup.zip",
-        "slash/",
-        "log/",
+        "slash\\",
+        "log\\",
         "Custom.mxtpro"
     ],
     "checkver": {
