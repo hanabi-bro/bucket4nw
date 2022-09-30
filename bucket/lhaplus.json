@@ -11,9 +11,5 @@
             "Lhaplus.exe",
             "Lhaplus"
         ]
-    ],
-	"persist": [
-		"Q-Dir.ini",
-        "Favoriten"
-	]
+    ]
 }

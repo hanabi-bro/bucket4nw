@@ -1,5 +1,5 @@
 {
-    "version": "9.91",
+    "version": "11.11",
     "description": "The Quad-Directory-Explorer",
     "homepage": "https://www.softwareok.com/?Download=Q-Dir",
     "license": "zlib License",
@@ -13,11 +13,11 @@
             "Q-Dir"
         ]
     ],
-	"persist": [
-		"Q-Dir.ini",
+    "persist": [
+        "Q-Dir.ini",
         "Favoriten",
         "Favoriten.original"
-	],
+    ],
     "checkver": {
         "url": "https://www.softwareok.com/?Download=Q-Dir",
         "re": "The ?Quad-Explorer ?(\\d+\\.\\d+)"
