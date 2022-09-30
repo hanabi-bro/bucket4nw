@@ -17,7 +17,7 @@
         "        New-Item \"$dir\\$file\" -Type File | Out-Null",
         "    }",
         "}",
-        "@('MobaXterm backup.zip', 'MobaXterm.ini', 'Custom.mxtpro', 'slash', 'log') | ForEach-Object { PersistsFile $_ }"
+        "@('MobaXterm backup.zip', 'MobaXterm.ini', 'Custom.mxtpro', 'slash\\', 'log\\') | ForEach-Object { PersistsFile $_ }"
     ],
     "bin": "MobaXterm.exe",
     "shortcuts": [
@@ -29,8 +29,8 @@
     "persist": [
         "MobaXterm.ini",
         "MobaXterm backup.zip",
-        "slash\\",
-        "log\\",
+        "slash",
+        "log",
         "Custom.mxtpro"
     ],
     "checkver": {
