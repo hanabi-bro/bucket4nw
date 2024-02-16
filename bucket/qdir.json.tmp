@@ -1,0 +1,29 @@
+{
+    "version": "11.47",
+    "description": "The Quad-Directory-Explorer",
+    "homepage": "https://www.softwareok.com/?Download=Q-Dir",
+    "license": "zlib License",
+    "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
+    "hash": "",
+    "extract_dir": "Q-Dir",
+    "bin": "Q-Dir_x64.exe",
+    "shortcuts": [
+        [
+            "Q-Dir_x64.exe",
+            "Q-Dir"
+        ]
+    ],
+    "persist": [
+        "Q-Dir.ini",
+        "Favoriten",
+        "Favoriten.original"
+    ],
+    "checkver": {
+        "url": "https://www.softwareok.com/?Download=Q-Dir",
+        "re": "The ?Quad-Explorer ?(\\d+\\.\\d+)"
+    },
+    "autoupdate": {
+        "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
+        "hash": ""
+    }
+}
